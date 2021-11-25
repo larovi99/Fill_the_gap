@@ -1,6 +1,6 @@
 # Fill the gap
 **"Fill the gap"** is a fun game to learn English through music.
-This program analyses lyrics, chosen by the user, and removes some words
+This program analyses lyrics, chosen by the user, and removes randomly some words.
 
 ## Installation
 I am using python 3.8.10. There is no previous module requirements.
@@ -17,19 +17,19 @@ To run the project, execute the following command:
 foo@bar:~$ python3 lyrics.py
 ```
 
-After that, tis message will appear:
+After that, this message will appear:
 ```console
 foo@bar:~$ python3 lyrics.py
 Choose the name of the song (name of the file without the extension)
 ```
 Write the name of the song,	specifically the name of the input file that you want to play.
-In this example, I am going to use the song inside the input directory: Listen by Beyonce.
+In this example, I am going to use the song inside the input directory: Listen by Beyoncé.
 ```console
 foo@bar:~$ python3 lyrics.py
 Choose the name of the song (name of the file without the extension)
 listen
 ```
-Then, a message is going to pop up and you will need to choose the percentage of words to erase.
+Then, a message is going to pop up, and you will need to choose the percentage of words to erase.
 ```console
 foo@bar:~$ python3 lyrics.py
 Choose the name of the song (name of the file without the extension)
@@ -52,11 +52,11 @@ exceptions words to not erase:  ['a', 'A', 'the', 'The', 'an', 'An', 'And', 'and
 list of words to erase :  ['has', 'listened', 'aside', 'my', 'feeling', 'I', "I've", "don't", 'only', 'but', 'so', "won't", 'in']
 ```
 
-Now, appears a new file in the ouput directory, with the same name as the input file, however the are a few words missing.
+Now, appears a new file in the output directory, with the same name as the input file, however there are a few words missing.
 
 
 ## Extra information
-- The words are erased randomy, therefore, the result of the execution of the same song will change
-- The is a list, called "list_words_not", that contains words which the code will not erase
+- The words are erased randomly, therefore, the result of the execution of the same song will change
+- There is a list, called "list_words_not", that contains words which the code will not erase
 
 
