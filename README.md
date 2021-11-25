@@ -1,10 +1,9 @@
 # Fill the gap
 **"Fill the gap"** is a fun game to learn English through music.
-This program analises a lyrics, chosen by the user, and removes some words
+This program analyses lyrics, chosen by the user, and removes some words
 
 ## Installation
-There is no previous module requirements.
-I am using python 3.8.10
+I am using python 3.8.10. There is no previous module requirements.
 
 ## Structure of files
 The structure of directory is:
